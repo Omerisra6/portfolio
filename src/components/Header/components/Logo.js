@@ -2,7 +2,8 @@ import React from 'react'
 import styled from 'styled-components'
 
 const StyledLogo = styled.img`
-    width: 10vw;
+    height: 10vh;
+
 `
 export default function Logo() {
     return (

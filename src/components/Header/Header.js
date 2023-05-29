@@ -4,11 +4,14 @@ import Logo from './components/Logo'
 import Navigation from './components/Navigation/Navigation'
 
 const StyledHeader = styled.div`
+    position: absolute;
+    width: 92%;
     display: flex;
-    padding: 7vh 2vw;
+    padding: 5vh 4%;
     align-items: center;
     justify-content: space-between;
     background-color: var( --theme-background );
+    z-index: 100;
 `
 export default function Header() {
     return (

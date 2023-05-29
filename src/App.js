@@ -9,6 +9,8 @@ const StyledApp = styled.div`
   width: 100%;
   height: 100%;
   background-color: var( --theme-background );
+  display: flex;
+  flex-direction: column;
 `
 export default function App() {
   return (

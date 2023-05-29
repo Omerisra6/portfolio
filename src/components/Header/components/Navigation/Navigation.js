@@ -8,25 +8,28 @@ import SocialLinksContainer from './components/SocialLinksContainer'
 const StyledNavigation = styled.div`
     display: flex;
     flex-direction: column;
-    width: 15em;
     padding: 3em;
     position: absolute;
     top: 3vh;
-    right: 4vw;
+    right: 5vw;
+    background-color: ${ ({isDisplayed}) => isDisplayed ? 'var( --theme-secondary-color)' : 'rgba(0, 0, 0, 0)' };
+    height: ${ ({isDisplayed}) => isDisplayed ? '20em' : '0' };
+    width: ${ ({isDisplayed}) => isDisplayed ? '15em' : '0' };
+
     transition: all 0.3s ease;
     transform-origin:top right;
-    background-color: ${ ({isDisplayed}) => isDisplayed ? 'var( --theme-secondary-color)' : 'rgba(0, 0, 0, 0)' };
     padding: 4vh 3vw;
     padding-bottom: 10vh;
 
 
     .nav-content-container{
-        display: flex;
-        visibility: ${ ({isDisplayed}) => isDisplayed ? 'visible' : 'hidden'};
+        display: ${ ({isDisplayed}) => isDisplayed ? 'flex' : 'none'};
+        width: ${ ({isDisplayed}) => isDisplayed ? 'auto' : '0'};
         flex-direction: column;
         gap: 2em;
         position: relative;
         top: 6vh;
+        transition: all 0.3s ease;
         transform-origin: top right;
     }
 
@@ -61,12 +64,13 @@ const StyledNavigation = styled.div`
         }
     }
 
-    @media ( max-width: 700px) {
-        width: 84%;
-        height: 96%;
+    @media ( max-width: 600px) {
+        height: ${ ({isDisplayed}) => isDisplayed ? '96vh' : '30%' };
+        width: ${ ({isDisplayed}) => isDisplayed ? '84%' : '30%' };
+        
         overflow: hidden;
         top: 0;
-        left: 0;
+        right: 0;
         padding: 2vh 8vw ;
 
         
