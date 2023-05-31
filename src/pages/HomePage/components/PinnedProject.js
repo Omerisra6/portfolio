@@ -3,7 +3,7 @@ import styled from 'styled-components'
 
 const StyledPinnedProject = styled.a`
     position: relative;
-    color: var( --theme-secondary-color );
+    color: var( --theme-text-color );
     width: fit-content;
     font-weight: 400;
 
