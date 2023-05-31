@@ -1,17 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;400;500;600;700;800&display=swap');
 
 :root{
-    --grad-1: rgb(208,55,170);
-    --grad-2: rgb(123,150,89);
-    /* --grad-1: rgb(77,95,193);
-    --grad-2: rgb(168,149,50); */
     --theme-reverse-grad-background: linear-gradient(270deg,var(--grad-1)0%,var(--grad-2)100%);
     --theme-grad-background: linear-gradient(270deg,var(--grad-2)0%,var(--grad-1)100%);
     --theme-grad-bacground-along: linear-gradient(0deg,var(--grad-2)0%,var(--grad-1)100%);
     --theme-background: #1d1d20;
     --theme-primary-color: #1d1d20;
-    --theme-secondary-color: #ccc;
-    --theme-light-font-color: #d1d1d1;
+    --theme-text-color: #ccc;
+    --theme-secondary-color: #323338;
+    --theme-light-text-color: #d1d1d1;
     --white: #fff;
 }
 

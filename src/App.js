@@ -4,6 +4,7 @@ import { Routes, Route } from 'react-router-dom';
 import HomePage from './pages/HomePage/HomePage';
 import ProjectsPage from './pages/ProjectsPage/ProjectsPage';
 import styled from 'styled-components';
+import { useGradient } from './hooks/useGradient';
 
 const StyledApp = styled.div`
   width: 100%;
@@ -13,6 +14,9 @@ const StyledApp = styled.div`
   flex-direction: column;
 `
 export default function App() {
+
+  useGradient()
+
   return (
     <StyledApp>
 
