@@ -37,6 +37,10 @@ const StyledToggleMenuButton = styled.button`
         transform: ${ ( { isDisplayed } ) => isDisplayed ? 'rotate( 45deg )' : 'rotate( 0deg )'};
         transition: all 0.3s;
     }
+
+    @media (max-width: 600px) {
+        top: 6vh;
+    }
 `
 export default function ToggleMenuButton({ isDisplayed, setIsDisplayed}) {
     return (

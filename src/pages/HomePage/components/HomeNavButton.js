@@ -19,7 +19,7 @@ const StyledNavButton = styled.li`
         border: none;
         width: 0.7em;
         height: 0.7em;
-        background-color: var( --theme-secondary-color );
+        background-color: var( --theme-text-color );
         opacity: 1;
     }
 
@@ -97,7 +97,7 @@ export default function HomeNavButton( { sectionId } ) {
     return (
        
         <StyledNavButton className={`nav-li ${ isCurrentSection && 'checked-nav-li' }`}>
-            <div key={ sectionId } className={`nav-button ${ isCurrentSection && 'checked-nav-button' }`} dataSection={ sectionId } onClick={ () => setCurrentSection( sectionId ) }></div>
+            <div key={ sectionId } className={`nav-button ${ isCurrentSection && 'checked-nav-button' }`} onClick={ () => setCurrentSection( sectionId ) }></div>
         </StyledNavButton>
        
     )

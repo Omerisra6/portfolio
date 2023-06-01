@@ -19,7 +19,7 @@ export const useGradient = () => {
     const randGradIndex = getRandomInt( 0, gradients.length - 1 )
     const selectedGrad  = gradients[ randGradIndex ]
 
-    Object.entries( selectedGrad ).map( ( [ index, grad ] ) => {
+    Object.entries( selectedGrad ).forEach( ( [ index, grad ] ) => {
         document.documentElement.style.setProperty( index, grad );
     })
 }

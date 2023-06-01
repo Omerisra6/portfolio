@@ -34,7 +34,7 @@ const StyledNavigation = styled.div`
     }
 
     a{
-        color: var( --white );
+        color: var( --theme-text-color  );
     }
 
     a::after{

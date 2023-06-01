@@ -22,12 +22,12 @@ const StyledHomePageNavigation = styled.nav`
 export default function HomePageNavigation() {
 
     const { sections } = useSections()
-    console.log( sections );
+
     return (
         <StyledHomePageNavigation>
             <ul>
                 { Object.keys( sections ).map( ( id ) => { 
-                    return <HomeNavButton sectionId={ id }/>
+                    return <HomeNavButton key={ id } sectionId={ id }/>
                 })}
             </ul>
         </StyledHomePageNavigation>

@@ -8,7 +8,9 @@ const StyledSayHelloContainer = styled.div`
 
     .say-hello-text{
         letter-spacing: 0.25em;
-        color: var( --theme-primary-color );
+        background: var( --theme-grad-background );
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
     }
 
     .say-hello-links-container{

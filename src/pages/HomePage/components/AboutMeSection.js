@@ -5,7 +5,6 @@ import SvgReverseGradient from '../../../components/SvgGradients/SvgReverseGradi
 
 const StyledAboutMeSection = styled.div`
   width: 100%;
-
   .about-paragraphs-container{
     width: 100%;
     height: 100%;
@@ -102,7 +101,12 @@ const StyledAboutMeSection = styled.div`
     }
 
     .about-paragraphs-container{
-      gap: 100px;
+      gap: 70px;
+    }
+
+    .paragraph-content{
+      font-size: 0.6em;
+      color: var( --theme-text-color );
     }
 
   }

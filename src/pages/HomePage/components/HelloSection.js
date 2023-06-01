@@ -17,7 +17,6 @@ const StyledHelloSection = styled.div`
         display: flex;
         flex-direction: column;
         gap: 1em;
-        flex-grow: 1;
         z-index: 1;
         background-color: var( --theme-background );
     }
@@ -29,11 +28,13 @@ const StyledHelloSection = styled.div`
     }
 
     .pinned-projects-wrapper{
-        width: 35%;
+        width: 37%;
+        position: relative;
+        left: 3em;
     }
 
     .hello-text-container{
-        width: 60%;
+        width: 50%;
     }
 
     path {
@@ -129,6 +130,14 @@ const StyledHelloSection = styled.div`
 
         .hello-text-container, .pinned-projects-wrapper{
             width: 100%;
+        }
+        .pinned-projects-wrapper{
+
+            left: 0;
+        }
+
+        .introduction-section{
+            font-size: 0.7em;
         }
     }
 
