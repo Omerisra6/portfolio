@@ -2,6 +2,7 @@ import React, { useContext, useState } from "react";
 import HelloSection from "../pages/HomePage/components/HelloSection";
 import AboutMeSection from "../pages/HomePage/components/AboutMeSection";
 import { useScrollHandler } from "../hooks/useScrollHandler";
+import ContactMeSection from "../pages/HomePage/components/ContactMeSection";
 
 export const SectionsContext = React.createContext(null);
 
@@ -12,7 +13,8 @@ export const useSections = () => {
 export const SectionsProvider = ({ children }) => {
     const sections = {
       'hello': <HelloSection/>,
-      'about-me': <AboutMeSection/>
+      'about-me': <AboutMeSection/>,
+      'contact-me': <ContactMeSection/>,
     };
   
     const firstSectionId = Object.keys(sections)[0];

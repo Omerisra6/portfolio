@@ -7,17 +7,28 @@ const StyledSectionsContainer = styled.div`
     flex-direction: column;
 
     & > *{
-        padding: 5% 8%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+        padding: 0 8%;
     }
 
+    .section-container:first-child{
+        min-height: 0;
+        padding: 5% 8%;
+    }
 
     .section-container:nth-child(2n){
         background-color: var( --theme-secondary-color );
     } 
+
+    background-color: var( --theme-primary-color );
     
     @media ( max-width: 600px ){
         & > *{
             padding: 5em 2em;
+            min-height: 0;
         }      
     }
 `
@@ -27,7 +38,7 @@ export default function HomeSectionsContainer() {
   
     useEffect( () => {
         const section = document.querySelector( `[data-id=${ currentSection }]`)
-        section.scrollIntoView( { behavior: 'smooth' } )
+        section.scrollIntoView( { behavior: 'smooth', block: 'center' } )
         
     }, [ currentSection ])
     
