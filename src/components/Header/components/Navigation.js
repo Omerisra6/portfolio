@@ -23,9 +23,11 @@ const StyledNavigation = styled.div`
 
 
     .nav-content-container{
-        display: ${ ({isDisplayed}) => isDisplayed ? 'flex' : 'none'};
-        width: ${ ({isDisplayed}) => isDisplayed ? 'auto' : '0'};
+        display: flex;
+        width: ${ ({isDisplayed}) => isDisplayed ? 'auto' : '0' };
+        opacity: ${ ({isDisplayed}) => isDisplayed ? '1' : '0' }; 
         flex-direction: column;
+        width: 12em;
         gap: 2em;
         position: relative;
         top: 6vh;
@@ -77,6 +79,10 @@ const StyledNavigation = styled.div`
     
         .nav-content-container{
             padding-top: 10%;
+        }
+
+        a{
+            font-size: 1em;
         }
     }
 `

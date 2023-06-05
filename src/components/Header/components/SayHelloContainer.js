@@ -19,6 +19,12 @@ const StyledSayHelloContainer = styled.div`
         gap: 1em;
     }
 
+    @media( max-width: 600px ){
+        .email-link{
+            font-size: 0.8em;
+        }
+    }
+
 `
 export default function SayHelloContainer() {
     return (
@@ -28,7 +34,7 @@ export default function SayHelloContainer() {
 
             <div className='say-hello-links-container'>
                 
-                <a className='link' href='mailto:omerisraeli6@gmail.com'>omerisraeli6@gmail.com</a>
+                <a className='link email-link' href='mailto:omerisraeli6@gmail.com'>omerisraeli6@gmail.com</a>
                 <a className='link' href='https://wa.me/972549063651?text=SAY HELLO'>0549063651</a>
 
             </div>

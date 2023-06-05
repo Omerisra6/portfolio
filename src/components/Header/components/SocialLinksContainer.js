@@ -49,6 +49,13 @@ const StyledSocialLinksContainer = styled.div`
     i:hover::after{
         opacity: 1;
     }
+
+    @media( max-width: 600px){
+        a, i, i::after, i::before{
+            width: 40px;
+            height: 40px;
+        }
+    }
 `
 export default function SocialLinksContainer() {
     return (
