@@ -1,0 +1,108 @@
+[
+  {
+    "name": "Laravel Landing Pages Creator",
+    "demoLink": "https://cleanregi.com",
+    "logo": "https://cdn-icons-png.flaticon.com/512/5681/5681697.png",
+    "screenshots": 
+    [
+      "https://i.postimg.cc/TYQ7tsnx/Clean-Regi1.png",
+      "https://i.postimg.cc/DZq5Lp7t/Clean-Regi2.png",
+      "https://i.postimg.cc/y8bfHSfr/Clean-Regi3.png",
+      "https://i.postimg.cc/B6WM8ffT/Clean-Regi4.png",
+      "https://i.postimg.cc/5tQsNNT9/Clean-Regi5.png"
+    ],
+    "description": "Landing Pages Creator is a powerful Laravel-based platform designed to streamline the process of building landing pages for event registration.\n\nWith its user-friendly interface and efficient features, users can create customized landing pages in a matter of minutes.\n\nOne of the standout features of Landing Pages Creator is its speed. The platform is optimized to deliver fast loading times, ensuring that potential attendees have a seamless experience when accessing landing pages.\n\nCustomizability is another key aspect of Landing Pages Creator. Users have full control over the colors used on their landing pages, allowing them to match the branding and aesthetics of their events. The drag and drop interface enables easy construction of pages using a library of pre-prepared questions, providing a smooth and intuitive user experience.\n\nTo manage the number of attendees, Landing Pages Creator allows users to set a maximum guest limit. Additionally, there is an option to import a guest list via an Excel file. This feature ensures that only individuals included in the list can register for the event, providing precise control over attendance.\n\nFor more complex event registrations, the platform supports nested questions. This means that certain questions can be dependent on the answers to previous questions, allowing for a dynamic and tailored registration experience.\n\nAll past projects are conveniently accessible from the user's dashboard, where they can view and manage them. The final guests list can be downloaded directly from the dashboard, ensuring all necessary information is readily available.\n\nLanding Pages Creator supports both English and Hebrew languages, catering to a wider audience. The responsive design ensures that the landing pages adapt to different screen sizes and devices, providing a consistent and user-friendly experience across platforms.\n\nTo ensure security, all user registrations include email validation. This verification step adds an extra layer of protection and safeguards the integrity of the event registration process.",
+    "pinned": true
+  },
+  {
+    "name": "PHP Login System",
+    "demoLink": "https://omerisra6-login-system.onrender.com",
+    "repo": "https://github.com/Omerisra6/login-system-php",
+    "logo": "https://cdn-icons-png.flaticon.com/512/10625/10625351.png",
+    "screenshots":
+    [
+      "https://i.postimg.cc/LsBYZDvb/Screen-Shot-2023-06-04-at-18-10-02.png",
+      "https://i.postimg.cc/PqzhMFg1/Screen-Shot-2023-06-04-at-18-00-29.png",
+      "https://i.postimg.cc/vmdbfdNQ/Screen-Shot-2023-06-04-at-18-00-46.png"
+    ],
+    "description":"Login System App is a PHP-based application that provides a secure and user-friendly login system. It offers various features and functionalities to ensure smooth user authentication and management.\n\nThe app is designed with Docker compatibility, allowing for easy deployment and containerization. Testing and debugging are integral parts of the development process, ensuring that the app functions as expected.\n\nWith its responsive design, Login System App delivers a seamless experience across desktop and mobile devices. The user interface is designed to be intuitive and user-friendly, providing a smooth login process.\n\nUser data is stored in a CSV database, enabling easy management and portability. The app also offers live user tracking, providing real-time information on logged-in users. This feature offers insights into user activity and enhances system monitoring.\n\nLogin System App provides detailed user information, including IP addresses, operating systems, login counts, last update time, and registration time. This data can be valuable for user analysis and system administration.\n\nThe app effectively handles user sessions, ensuring secure access and seamless navigation throughout the application. Error handling is implemented to enhance the app's reliability and user experience.\n\nTo use the Login System App, Git, PHP, and Docker need to be installed on the local computer. The app can be cloned from the GitHub repository and run using Docker commands.\n\nThe software utilizes open-source packages such as PHP, Docker, and Pest.",
+    "pinned": true
+  },
+  {
+    "name": "NodeJS Video Chat",
+    "demoLink": "https://omerisra6-video-chat.onrender.com",
+    "repo": "https://github.com/Omerisra6/video-chat-nodejs",
+    "logo": "https://cdn-icons-png.flaticon.com/512/4575/4575980.png",
+    "screenshots":
+    [
+      "https://i.postimg.cc/VvTpBj4x/Screen-Shot-2023-06-04-at-18-18-56.png",
+      "https://i.postimg.cc/pXhgV6LR/Screen-Shot-2023-06-04-at-18-18-34.png"
+    ],
+    "description": "The Video Chat App is a web application built with React and Node.js that enables users to engage in real-time video chat sessions. The app provides a user-friendly interface and is optimized for both desktop and mobile devices, ensuring a smooth experience for all users.\n\nParticipants can join group video chat sessions, allowing multiple users to interact simultaneously. To ensure privacy and security, access to chat rooms is restricted to users with the room PIN. The app includes testing and debugging features to ensure its proper functionality, as well as error handling capabilities to inform users of any issues that may occur.\n\nIt utilizes WebRTC technology, specifically the PeerJS library, for real-time audio and video communication between users. WebSocket communication is implemented for efficient management of rooms and users.\n\nThe app relies on open source packages such as React, Node.js, PeerJS, and Socket.IO.\n\n",
+    "pinned": false
+  },
+  {
+    "name": "Laravel Video Gallery",
+    "demoLink": "https://omerisra6-video-gallery.onrender.com",
+    "repo": "https://github.com/Omerisra6/laravel-gallery",
+    "logo": "https://cdn-icons-png.flaticon.com/512/1160/1160924.png",
+    "screenshots": 
+    [
+      "https://i.postimg.cc/q7rrL4Jc/Screen-Shot-2023-05-23-at-19-10-22.png",
+      "https://i.postimg.cc/L8c6GVnB/Screen-Shot-2023-05-23-at-18-08-08.png",
+      "https://i.postimg.cc/k4f7GzdQ/Screen-Shot-2023-05-23-at-19-12-06.png" 
+    ],
+    "description": "Video Gallery App is a Laravel-based application that provides a user-friendly interface for managing and organizing videos. With a range of key features, this app offers a seamless experience for video upload, storage, and playback.\n\nOne of the notable features is its Docker compatibility, allowing for easy deployment and containerization of the app. Users can upload large video files without limitations, thanks to the app's capability to handle large video uploads.\n\nVideo Gallery App automatically converts video files into reduced versions optimized for streaming, ensuring efficient delivery and playback. It also offers Google Drive sync, enabling users to synchronize files from Google Drive with the app's local storage.\n\nTo enhance video discoverability, the app includes a search functionality that enables users to find specific videos based on titles, descriptions, or other metadata. Additionally, the application extracts and displays important video properties such as aspect ratio, resolution, and duration, providing users with detailed information about each video.\n\nWith robust error handling and a responsive design, Video Gallery App guarantees a smooth and uninterrupted user experience across various devices and screen sizes. Its user-friendly interface makes it easy to navigate through the video gallery and access desired features.\n\nThis app utilizes several open-source packages, including Laravel, Docker, and FFmpeg.",
+    "pinned": true
+  },
+  {
+    "name": "TypeScript Shoe Customize",
+    "demoLink": "https://omerisra6-shoes-customize.netlify.app",
+    "repo": "https://github.com/Omerisra6/ts-shoes-custom",
+    "logo": "https://cdn-icons-png.flaticon.com/512/7096/7096932.png",
+    "screenshots":
+    [
+      "https://i.postimg.cc/J7Zr7x4w/Screen-Shot-2023-06-04-at-18-50-59.png",
+      "https://i.postimg.cc/tCz9Wgx2/Screen-Shot-2023-06-04-at-18-48-30.png"
+    ],
+    "description": "Shoe Custom App is a powerful application built with Typescript for customizing shoes. With its user-friendly interface and advanced features, users can personalize their shoes with ease.\n\nThe app offers a responsive design, optimized for both desktop and mobile devices, ensuring a smooth experience for all users. It allows users to search for any location in the world and view its current weather conditions.\n\nOne of the notable features of Shoe Custom App is its local storage capability. Users can save their custom shoe designs and retrieve them later.\n\nThe app provides extensive customization options. Users can customize their shoes using scalable vector graphics (SVG), including the ability to create their own colors. They can also add their customized shoes to their cart or save them to a product list for future reference.\n\nShoe Custom App offers a live preview feature, allowing users to instantly see the changes they make to their shoe design as they create it. The interface is designed to be user-friendly, ensuring a seamless and intuitive experience.\n\nTo use the app, simply clone the repository, install the necessary dependencies, and compile the TypeScript files. Serve the app using a local development server such as LiveServer.\n\nShoe Custom App credits the use of Typescript, an open-source package for building scalable applications.\n\nOverall, Shoe Custom App provides an efficient and customizable solution for users to personalize their shoes. It combines functionality with a visually appealing design, making it an ideal choice for shoe enthusiasts.",
+    "pinned": true
+  },
+  {
+    "name": "React Internet Speed Test",
+    "demoLink": "https://omerisra6-speed-test.onrender.com",
+    "repo": "https://github.com/Omerisra6/internet-speed-test-react",
+    "logo": "https://cdn-icons-png.flaticon.com/512/10321/10321953.png",
+    "screenshots":[ "https://i.postimg.cc/9Mq91k5X/localhost-3000.png "],
+    "description": "Internet Speed Test App is a single-page application built with React and Node.js. It provides users with a seamless and efficient way to measure their upload and download speeds, latency, and other network metrics.\n\nThe app features a responsive design, ensuring optimal performance on both desktop and mobile devices. It offers a user-friendly interface that displays important details such as the user's IP address, location, server, and operating system.\n\nKey features of Internet Speed Test App include comprehensive testing and debugging capabilities, ensuring accurate and reliable results. The app includes error handling features to notify users of any issues that may arise during the testing process.\n\nInternet Speed Test App utilizes open source packages such as React, Node.js, and Network Speed to deliver its functionality",
+    "pinned": false
+  },
+  {
+    "name": "React Crypto Tracker",
+    "demoLink": "https://omerisra6-crypto-currency-tracker.netlify.app",
+    "repo": "https://github.com/Omerisra6/crypto-currency-tracker",
+    "logo": "https://cdn-icons-png.flaticon.com/512/3667/3667779.png",
+    "screenshots":["https://i.postimg.cc/jqvr0Fbt/Screen-Shot-2023-05-24-at-20-36-01.png"],
+    "description": "Crypto Currency Tracker App is a single-page application built with React for tracking the real-time data and price fluctuations of Bitcoin and Ethereum. It provides users with up-to-date information on the current currency values of these cryptocurrencies.\n\nThe app fetches the currency data using a socket client from an API, ensuring real-time updates. The fetched data is presented on an interactive chart, allowing users to visually track the price changes over time.\n\nWith a responsive design, Crypto Currency Tracker App offers an optimal viewing experience across various devices and screen sizes. It adapts seamlessly to desktops, tablets, and mobile devices.\n\nUsers can compare the current prices of Bitcoin and Ethereum side by side on the chart, enabling them to analyze the performance of both cryptocurrencies simultaneously.\n\nThe user-friendly interface enhances the overall experience, making it easy for users to interact with the app.\n\nThis application utilizes React, a popular JavaScript library for building user interfaces, and Node.js for the backend functionality ",
+    "pinned": true
+  },
+  {
+    "name": "React Weather",
+    "demoLink": "https://omerisra6-weather-app.netlify.app",
+    "repo": "https://github.com/Omerisra6/weather-app-react",
+    "logo": "https://cdn-icons-png.flaticon.com/512/831/831268.png",
+    "screenshots": [ "https://i.postimg.cc/85NLtHHq/Screen-Shot-2023-06-04-at-19-16-38.png" ],
+    "description": "The Weather App is a single-page application built with React that provides real-time weather information for any location. With its responsive design and user-friendly interface, users can easily access current weather conditions and daily forecasts.\n\nThe app is optimized for both desktop and mobile devices, ensuring a smooth experience across different screen sizes. Users can search for any location worldwide and view its up-to-date weather data.\n\nKey features of the Weather App include real-time data retrieval from a reliable API, displaying current weather information and daily forecasts. The app is designed to handle errors gracefully, providing a seamless user experience.\n\nThe Weather App utilizes open source packages such as React and Node.js, leveraging their powerful capabilities for efficient development. It also relies on the OpenWeatherMap API to fetch weather data.",
+    "pinned": false
+  },
+  {
+    "name": "React Codepen",
+    "demoLink": "https://omerisra6-codepen.onrender.com",
+    "repo": "https://github.com/Omerisra6/codepen-react",
+    "logo": "https://cdn-icons-png.flaticon.com/512/4997/4997543.png",
+    "screenshots": [ "https://i.postimg.cc/02j6P6Qr/Screen-Shot-2023-05-10-at-14-41-51.png" ],
+    "description": "The Codepen Clone App is a powerful application built with React, offering a replica of the popular Codepen platform. With its user-friendly interface and advanced features, users can write and preview code in real-time.\n\nThe app utilizes local storage to save and persist user data, ensuring seamless data retrieval even after browser refresh or closure. It provides instant preview updates, allowing users to see the results of their code changes instantly.\n\nOne of the notable features of the Codepen Clone App is the ability to adjust the preview width and height, providing a customizable viewing experience. Users can also modify the width and height of each code editor, creating a personalized coding environment.\n\nThe Codepen Clone App credits the use of React and Node.js as open-source packages. It also incorporates CodeMirror, a powerful code editor library, to enhance the coding experience.\n\nOverall, the Codepen Clone App offers a user-friendly interface and essential features for code editing and previewing. It is an ideal tool for developers and coding enthusiasts to experiment with code and visualize the results",
+    "pinned": false
+  }
+]
+  
