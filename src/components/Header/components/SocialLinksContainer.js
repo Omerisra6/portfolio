@@ -4,7 +4,7 @@ import styled from 'styled-components'
 const StyledSocialLinksContainer = styled.div`
 
     display: flex;
-    gap: 2em;
+    gap: 1em;
 
     .fa-github::before, .fa-github::after {
      
@@ -13,6 +13,8 @@ const StyledSocialLinksContainer = styled.div`
 
     a{
         position: relative;
+        width: 24px;
+        height: 24px;
     }
 
     i::after, i::before{
