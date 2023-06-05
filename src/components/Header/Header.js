@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import Logo from './components/Logo'
-import Navigation from './components/Navigation/Navigation'
+import Navigation from './components/Navigation'
 
 const StyledHeader = styled.div`
     position: absolute;

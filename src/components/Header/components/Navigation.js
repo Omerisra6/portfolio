@@ -1,9 +1,9 @@
 import React, { useState } from 'react'
-import ToggleMenuButton from './components/ToggleMenuButton'
+import ToggleMenuButton from './ToggleMenuButton'
 import styled from 'styled-components'
-import NavLinksContainer from './components/NavLinksContainer'
-import SayHelloContainer from './components/SayHelloContainer'
-import SocialLinksContainer from './components/SocialLinksContainer'
+import NavLinksContainer from './NavLinksContainer'
+import SayHelloContainer from './SayHelloContainer'
+import SocialLinksContainer from './SocialLinksContainer'
 
 const StyledNavigation = styled.div`
     display: flex;
@@ -67,16 +67,12 @@ const StyledNavigation = styled.div`
     @media ( max-width: 600px) {
         height: ${ ({isDisplayed}) => isDisplayed ? '96vh' : '30%' };
         width: ${ ({isDisplayed}) => isDisplayed ? '84%' : '30%' };
-        
         overflow: hidden;
         top: 0;
         right: 0;
-        padding: 2vh 8vw ;
-
-        
+        padding: 2vh 8vw ;    
         font-size: 1.5em;
-        
-
+    
         .nav-content-container{
             padding-top: 10%;
         }
