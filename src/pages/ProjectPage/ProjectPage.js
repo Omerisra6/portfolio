@@ -34,6 +34,7 @@ const StyledProjectPage = styled.div`
         justify-content: center;
         gap: 1em;
         width: 70%;
+        padding-top: 2em;
     }
 
     i{
@@ -124,9 +125,13 @@ export default function ProjectPage() {
                 <a className='view-project-link' href={ demoLink }>
                     <i className='fa fa-eye'></i>
                 </a>
-                <a className='view-repo-link' href={ repo }>
-                    <i class="fa-brands fa-github"></i>
-                </a>
+
+                { repo && 
+                    <a className='view-repo-link' href={ repo }>
+                        <i className="fa-brands fa-github"></i>
+                    </a>
+                }
+                
             </div>
             
         </StyledProjectPage>
