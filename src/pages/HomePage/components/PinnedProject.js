@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import { slugify } from '../../../utils/helpers'
 
 const StyledPinnedProject = styled.a`
     position: relative;
@@ -36,8 +37,10 @@ const StyledPinnedProject = styled.a`
     }
 
 `
-export default function PinnedProject( { url, title } ) {
+export default function PinnedProject( { project } ) {
+    
+    const slug = slugify( project.name )    
     return (
-        <StyledPinnedProject className="pinned-project" href={`/projects/${url}`}>{title}</StyledPinnedProject>
+        <StyledPinnedProject className="pinned-project" href={`/projects/${slug}`}>{project.name}</StyledPinnedProject>
     )
 }
