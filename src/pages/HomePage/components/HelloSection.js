@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import PinnedProject from './PinnedProject'
+import projectsData from '../../../assets/projects.json'
 
 const StyledHelloSection = styled.div`
 
@@ -137,19 +138,14 @@ const StyledHelloSection = styled.div`
         }
 
         .introduction-section{
-            font-size: 0.7em;
+            font-size: 0.9em;
         }
     }
 
 `
 export default function HelloSection() {
 
-    const pinnedProjects = {
-        'php-login-system': 'PHP Login System',
-        'cleanregi': 'CleanRegi',
-        'react-crypto-tracker': 'React Crypto Tracker',
-        'ts-shoe-customize': 'TypeScript Shoe Customize'
-    }
+    const pinnedProjects = projectsData.filter( ( project ) => project.pinned )
 
     return (
         <StyledHelloSection>
@@ -176,8 +172,8 @@ export default function HelloSection() {
                     <h2 className='pinned-projects-text'>Pinned Projects</h2>
                     <div className='projects-links-container'>
 
-                        { Object.entries( pinnedProjects ).map( ( [ url, title ] ) => {
-                            return <PinnedProject url={ url } title={ title } key={ title }/>
+                        { pinnedProjects.map( ( project ) => {
+                            return <PinnedProject project={ project } key={ project.name }/>
                         })}   
                     
                     </div>

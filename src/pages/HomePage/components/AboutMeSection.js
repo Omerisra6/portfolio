@@ -105,7 +105,7 @@ const StyledAboutMeSection = styled.div`
     }
 
     .paragraph-content{
-      font-size: 0.6em;
+      font-size: 0.8em;
       color: var( --theme-text-color );
     }
 
