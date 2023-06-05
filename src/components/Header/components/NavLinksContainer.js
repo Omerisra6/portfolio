@@ -15,15 +15,25 @@ const StyledNavLinksContainer = styled.div `
 export default function NavLinksContainer() {
     return (
         <StyledNavLinksContainer>
-            <a href="/">
+
+            <a className='link' href='/'>
+
                 <div>Home</div>
+                
             </a>        
-            <a href="/projects">
+
+            <a className='link' href='/projects'>
+
                 <div>My Projects</div>
+
             </a>        
-            <a href='/files/resume.pdf' download='Omer_Israeli.pdf'>
+
+            <a className='link' href='/files/resume.pdf' download='Omer_Israeli.pdf'>
+
                 <div>My Resume</div>
+
             </a>
+
         </StyledNavLinksContainer>
     )
 }

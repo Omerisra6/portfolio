@@ -35,9 +35,10 @@ const StyledNavigation = styled.div`
 
     a{
         color: var( --theme-text-color  );
+        font-size: 0.8em;
     }
 
-    a::after{
+    .link::after{
         content: '';
         display: inline-block;
         background-color: var( --white );
@@ -50,7 +51,7 @@ const StyledNavigation = styled.div`
         top: 0.1em;
     }
 
-    a:hover::after{
+    .link:hover::after{
         opacity: 0.4;
         left: -0.5em;
     }
@@ -65,6 +66,7 @@ const StyledNavigation = styled.div`
     }
 
     @media ( max-width: 600px) {
+        position: fixed;
         height: ${ ({isDisplayed}) => isDisplayed ? '96vh' : '30%' };
         width: ${ ({isDisplayed}) => isDisplayed ? '84%' : '30%' };
         overflow: hidden;
@@ -90,13 +92,13 @@ export default function Navigation() {
             <ToggleMenuButton isDisplayed={ isDisplayed } setIsDisplayed={ setIsDisplayed }/>
 
             <div className='nav-content-container'>
+
                 <NavLinksContainer/>
                 <SayHelloContainer/>
                 <SocialLinksContainer/>
+
             </div>
 
-            
-        
         </StyledNavigation>
     )
 }
