@@ -9,7 +9,6 @@ export const useGradient = () => {
         { '--grad-1': '#83a4d4', '--grad-2': '#b6fbff' },
         { '--grad-1': '#00F260', '--grad-2': '#0575E6' },
         { '--grad-1': '#FF5F6D', '--grad-2': '#FFC371' },
-        { '--grad-1': '#000428', '--grad-2': '#004e92' },
         { '--grad-1': '#fc00ff', '--grad-2': '#00dbde' },
         { '--grad-1': '#FBD3E9', '--grad-2': '#BB377D' },
         { '--grad-1': '#4CB8C4', '--grad-2': '#3CD3AD' },
