@@ -4,7 +4,7 @@ import Logo from './components/Logo'
 import Navigation from './components/Navigation'
 
 const StyledHeader = styled.div`
-    position: absolute;
+    position: relative;
     width: 92%;
     display: flex;
     padding: 5vh 4%;

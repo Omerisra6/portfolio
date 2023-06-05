@@ -13,7 +13,7 @@ const StyledProjectPage = styled.div`
     align-self: center;
     align-items: center;
     gap: 1.5em;
-    padding: 25vh 0 15vh 0;
+    padding: 15vh 0 15vh 0;
 
 
     .project-name{
@@ -41,6 +41,7 @@ const StyledProjectPage = styled.div`
         width: 24px;
         height: 24px;
         position: relative;
+        transition: 0.3s ease-in-out;
         cursor: pointer;
     }
 

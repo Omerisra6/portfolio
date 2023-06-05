@@ -6,6 +6,7 @@ import styled from 'styled-components';
 import { useGradient } from './hooks/useGradient';
 import ProjectsPage from './pages/ProjectsPage/ProjectsPage';
 import ProjectPage from './pages/ProjectPage/ProjectPage';
+import Footer from './components/Footer/Footer';
 
 const StyledApp = styled.div`
   width: 100%;
@@ -30,6 +31,8 @@ export default function App() {
         <Route path='/projects/:projectSlug' element={ <ProjectPage/> }/>
         
       </Routes>
+
+      <Footer className='footer'/>
 
     </StyledApp>
   )
