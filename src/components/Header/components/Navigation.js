@@ -69,12 +69,12 @@ const StyledNavigation = styled.div`
 
     @media ( max-width: 600px) {
         position: fixed;
-        height: ${ ({isDisplayed}) => isDisplayed ? '96vh' : '30%' };
+        height: ${ ({isDisplayed}) => isDisplayed ? '96%' : '30%' };
         width: ${ ({isDisplayed}) => isDisplayed ? '84%' : '30%' };
         overflow: hidden;
         top: 0;
         right: 0;
-        padding: 2vh 8vw ;    
+        padding: 2% 8% ;    
         font-size: 1.5em;
     
         .nav-content-container{
