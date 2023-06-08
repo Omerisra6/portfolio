@@ -3,8 +3,7 @@
     "name": "Laravel Landing Pages Creator",
     "demoLink": "https://cleanregi.com",
     "logo": "https://cdn-icons-png.flaticon.com/512/5681/5681697.png",
-    "screenshots": 
-    [
+    "screenshots": [
       "https://i.postimg.cc/TYQ7tsnx/Clean-Regi1.png",
       "https://i.postimg.cc/DZq5Lp7t/Clean-Regi2.png",
       "https://i.postimg.cc/y8bfHSfr/Clean-Regi3.png",
@@ -19,13 +18,12 @@
     "demoLink": "https://omerisra6-login-system.onrender.com",
     "repo": "https://github.com/Omerisra6/login-system-php",
     "logo": "https://cdn-icons-png.flaticon.com/512/10625/10625351.png",
-    "screenshots":
-    [
+    "screenshots": [
       "https://i.postimg.cc/LsBYZDvb/Screen-Shot-2023-06-04-at-18-10-02.png",
       "https://i.postimg.cc/PqzhMFg1/Screen-Shot-2023-06-04-at-18-00-29.png",
       "https://i.postimg.cc/vmdbfdNQ/Screen-Shot-2023-06-04-at-18-00-46.png"
     ],
-    "description":"Login System App is a PHP-based application that provides a secure and user-friendly login system. It offers various features and functionalities to ensure smooth user authentication and management.\n\nThe app is designed with Docker compatibility, allowing for easy deployment and containerization. Testing and debugging are integral parts of the development process, ensuring that the app functions as expected.\n\nWith its responsive design, Login System App delivers a seamless experience across desktop and mobile devices. The user interface is designed to be intuitive and user-friendly, providing a smooth login process.\n\nUser data is stored in a CSV database, enabling easy management and portability. The app also offers live user tracking, providing real-time information on logged-in users. This feature offers insights into user activity and enhances system monitoring.\n\nLogin System App provides detailed user information, including IP addresses, operating systems, login counts, last update time, and registration time. This data can be valuable for user analysis and system administration.\n\nThe app effectively handles user sessions, ensuring secure access and seamless navigation throughout the application. Error handling is implemented to enhance the app's reliability and user experience.\n\nTo use the Login System App, Git, PHP, and Docker need to be installed on the local computer. The app can be cloned from the GitHub repository and run using Docker commands.\n\nThe software utilizes open-source packages such as PHP, Docker, and Pest.",
+    "description": "Login System App is a PHP-based application that provides a secure and user-friendly login system. It offers various features and functionalities to ensure smooth user authentication and management.\n\nThe app is designed with Docker compatibility, allowing for easy deployment and containerization. Testing and debugging are integral parts of the development process, ensuring that the app functions as expected.\n\nWith its responsive design, Login System App delivers a seamless experience across desktop and mobile devices. The user interface is designed to be intuitive and user-friendly, providing a smooth login process.\n\nUser data is stored in a CSV database, enabling easy management and portability. The app also offers live user tracking, providing real-time information on logged-in users. This feature offers insights into user activity and enhances system monitoring.\n\nLogin System App provides detailed user information, including IP addresses, operating systems, login counts, last update time, and registration time. This data can be valuable for user analysis and system administration.\n\nThe app effectively handles user sessions, ensuring secure access and seamless navigation throughout the application. Error handling is implemented to enhance the app's reliability and user experience.\n\nTo use the Login System App, Git, PHP, and Docker need to be installed on the local computer. The app can be cloned from the GitHub repository and run using Docker commands.\n\nThe software utilizes open-source packages such as PHP, Docker, and Pest.",
     "pinned": true
   },
   {
@@ -33,8 +31,7 @@
     "demoLink": "https://omerisra6-video-chat.onrender.com",
     "repo": "https://github.com/Omerisra6/video-chat-nodejs",
     "logo": "https://cdn-icons-png.flaticon.com/512/4575/4575980.png",
-    "screenshots":
-    [
+    "screenshots": [
       "https://i.postimg.cc/VvTpBj4x/Screen-Shot-2023-06-04-at-18-18-56.png",
       "https://i.postimg.cc/pXhgV6LR/Screen-Shot-2023-06-04-at-18-18-34.png"
     ],
@@ -46,11 +43,10 @@
     "demoLink": "https://omerisra6-video-gallery.onrender.com",
     "repo": "https://github.com/Omerisra6/laravel-gallery",
     "logo": "https://cdn-icons-png.flaticon.com/512/1160/1160924.png",
-    "screenshots": 
-    [
+    "screenshots": [
       "https://i.postimg.cc/q7rrL4Jc/Screen-Shot-2023-05-23-at-19-10-22.png",
       "https://i.postimg.cc/L8c6GVnB/Screen-Shot-2023-05-23-at-18-08-08.png",
-      "https://i.postimg.cc/k4f7GzdQ/Screen-Shot-2023-05-23-at-19-12-06.png" 
+      "https://i.postimg.cc/k4f7GzdQ/Screen-Shot-2023-05-23-at-19-12-06.png"
     ],
     "description": "Video Gallery App is a Laravel-based application that provides a user-friendly interface for managing and organizing videos. With a range of key features, this app offers a seamless experience for video upload, storage, and playback.\n\nOne of the notable features is its Docker compatibility, allowing for easy deployment and containerization of the app. Users can upload large video files without limitations, thanks to the app's capability to handle large video uploads.\n\nVideo Gallery App automatically converts video files into reduced versions optimized for streaming, ensuring efficient delivery and playback. It also offers Google Drive sync, enabling users to synchronize files from Google Drive with the app's local storage.\n\nTo enhance video discoverability, the app includes a search functionality that enables users to find specific videos based on titles, descriptions, or other metadata. Additionally, the application extracts and displays important video properties such as aspect ratio, resolution, and duration, providing users with detailed information about each video.\n\nWith robust error handling and a responsive design, Video Gallery App guarantees a smooth and uninterrupted user experience across various devices and screen sizes. Its user-friendly interface makes it easy to navigate through the video gallery and access desired features.\n\nThis app utilizes several open-source packages, including Laravel, Docker, and FFmpeg.",
     "pinned": true
@@ -60,8 +56,7 @@
     "demoLink": "https://omerisra6-shoes-customize.netlify.app",
     "repo": "https://github.com/Omerisra6/ts-shoes-custom",
     "logo": "https://cdn-icons-png.flaticon.com/512/7096/7096932.png",
-    "screenshots":
-    [
+    "screenshots": [
       "https://i.postimg.cc/J7Zr7x4w/Screen-Shot-2023-06-04-at-18-50-59.png",
       "https://i.postimg.cc/tCz9Wgx2/Screen-Shot-2023-06-04-at-18-48-30.png"
     ],
@@ -73,7 +68,7 @@
     "demoLink": "https://omerisra6-speed-test.onrender.com",
     "repo": "https://github.com/Omerisra6/internet-speed-test-react",
     "logo": "https://cdn-icons-png.flaticon.com/512/10321/10321953.png",
-    "screenshots":[ "https://i.postimg.cc/9Mq91k5X/localhost-3000.png "],
+    "screenshots": ["https://i.postimg.cc/9Mq91k5X/localhost-3000.png "],
     "description": "Internet Speed Test App is a single-page application built with React and Node.js. It provides users with a seamless and efficient way to measure their upload and download speeds, latency, and other network metrics.\n\nThe app features a responsive design, ensuring optimal performance on both desktop and mobile devices. It offers a user-friendly interface that displays important details such as the user's IP address, location, server, and operating system.\n\nKey features of Internet Speed Test App include comprehensive testing and debugging capabilities, ensuring accurate and reliable results. The app includes error handling features to notify users of any issues that may arise during the testing process.\n\nInternet Speed Test App utilizes open source packages such as React, Node.js, and Network Speed to deliver its functionality",
     "pinned": false
   },
@@ -82,7 +77,9 @@
     "demoLink": "https://omerisra6-crypto-currency-tracker.netlify.app",
     "repo": "https://github.com/Omerisra6/crypto-currency-tracker",
     "logo": "https://cdn-icons-png.flaticon.com/512/3667/3667779.png",
-    "screenshots":["https://i.postimg.cc/jqvr0Fbt/Screen-Shot-2023-05-24-at-20-36-01.png"],
+    "screenshots": [
+      "https://i.postimg.cc/jqvr0Fbt/Screen-Shot-2023-05-24-at-20-36-01.png"
+    ],
     "description": "Crypto Currency Tracker App is a single-page application built with React for tracking the real-time data and price fluctuations of Bitcoin and Ethereum. It provides users with up-to-date information on the current currency values of these cryptocurrencies.\n\nThe app fetches the currency data using a socket client from an API, ensuring real-time updates. The fetched data is presented on an interactive chart, allowing users to visually track the price changes over time.\n\nWith a responsive design, Crypto Currency Tracker App offers an optimal viewing experience across various devices and screen sizes. It adapts seamlessly to desktops, tablets, and mobile devices.\n\nUsers can compare the current prices of Bitcoin and Ethereum side by side on the chart, enabling them to analyze the performance of both cryptocurrencies simultaneously.\n\nThe user-friendly interface enhances the overall experience, making it easy for users to interact with the app.\n\nThis application utilizes React, a popular JavaScript library for building user interfaces, and Node.js for the backend functionality ",
     "pinned": true
   },
@@ -91,7 +88,9 @@
     "demoLink": "https://omerisra6-weather-app.netlify.app",
     "repo": "https://github.com/Omerisra6/weather-app-react",
     "logo": "https://cdn-icons-png.flaticon.com/512/831/831268.png",
-    "screenshots": [ "https://i.postimg.cc/85NLtHHq/Screen-Shot-2023-06-04-at-19-16-38.png" ],
+    "screenshots": [
+      "https://i.postimg.cc/85NLtHHq/Screen-Shot-2023-06-04-at-19-16-38.png"
+    ],
     "description": "The Weather App is a single-page application built with React that provides real-time weather information for any location. With its responsive design and user-friendly interface, users can easily access current weather conditions and daily forecasts.\n\nThe app is optimized for both desktop and mobile devices, ensuring a smooth experience across different screen sizes. Users can search for any location worldwide and view its up-to-date weather data.\n\nKey features of the Weather App include real-time data retrieval from a reliable API, displaying current weather information and daily forecasts. The app is designed to handle errors gracefully, providing a seamless user experience.\n\nThe Weather App utilizes open source packages such as React and Node.js, leveraging their powerful capabilities for efficient development. It also relies on the OpenWeatherMap API to fetch weather data.",
     "pinned": false
   },
@@ -100,9 +99,10 @@
     "demoLink": "https://omerisra6-codepen.onrender.com",
     "repo": "https://github.com/Omerisra6/codepen-react",
     "logo": "https://cdn-icons-png.flaticon.com/512/4997/4997543.png",
-    "screenshots": [ "https://i.postimg.cc/02j6P6Qr/Screen-Shot-2023-05-10-at-14-41-51.png" ],
+    "screenshots": [
+      "https://i.postimg.cc/02j6P6Qr/Screen-Shot-2023-05-10-at-14-41-51.png"
+    ],
     "description": "The Codepen Clone App is a powerful application built with React, offering a replica of the popular Codepen platform. With its user-friendly interface and advanced features, users can write and preview code in real-time.\n\nThe app utilizes local storage to save and persist user data, ensuring seamless data retrieval even after browser refresh or closure. It provides instant preview updates, allowing users to see the results of their code changes instantly.\n\nOne of the notable features of the Codepen Clone App is the ability to adjust the preview width and height, providing a customizable viewing experience. Users can also modify the width and height of each code editor, creating a personalized coding environment.\n\nThe Codepen Clone App credits the use of React and Node.js as open-source packages. It also incorporates CodeMirror, a powerful code editor library, to enhance the coding experience.\n\nOverall, the Codepen Clone App offers a user-friendly interface and essential features for code editing and previewing. It is an ideal tool for developers and coding enthusiasts to experiment with code and visualize the results",
     "pinned": false
   }
 ]
-  

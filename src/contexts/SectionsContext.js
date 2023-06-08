@@ -7,29 +7,26 @@ import ContactMeSection from "../pages/HomePage/components/ContactMeSection";
 export const SectionsContext = React.createContext(null);
 
 export const useSections = () => {
-    return useContext(SectionsContext);
+  return useContext(SectionsContext);
 };
 
 export const SectionsProvider = ({ children }) => {
-    const sections = {
-      'hello': <HelloSection/>,
-      'about-me': <AboutMeSection/>,
-      'contact-me': <ContactMeSection/>,
-    };
-  
-    const firstSectionId = Object.keys(sections)[0];
-    const [currentSection, setCurrentSection] = useState(firstSectionId);
-  
-    const value = {
-      currentSection,
-      setCurrentSection,
-      sections,
-    };
-    
-    useScrollHandler( currentSection, setCurrentSection, sections )
-  
-    return (
-      <SectionsContext.Provider value={value} children={children} />
-    );
+  const sections = {
+    hello: <HelloSection />,
+    "about-me": <AboutMeSection />,
+    "contact-me": <ContactMeSection />,
   };
-  
+
+  const firstSectionId = Object.keys(sections)[0];
+  const [currentSection, setCurrentSection] = useState(firstSectionId);
+
+  const value = {
+    currentSection,
+    setCurrentSection,
+    sections,
+  };
+
+  useScrollHandler(currentSection, setCurrentSection, sections);
+
+  return <SectionsContext.Provider value={value} children={children} />;
+};
