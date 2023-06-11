@@ -28,7 +28,6 @@ const StyledNavigation = styled.div`
     width: ${({ isDisplayed }) => (isDisplayed ? "auto" : "0")};
     opacity: ${({ isDisplayed }) => (isDisplayed ? "1" : "0")};
     flex-direction: column;
-    width: 12em;
     gap: 2em;
     position: relative;
     top: 6vh;
