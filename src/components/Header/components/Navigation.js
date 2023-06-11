@@ -17,9 +17,10 @@ const StyledNavigation = styled.div`
   height: ${({ isDisplayed }) => (isDisplayed ? "20em" : "0")};
   width: ${({ isDisplayed }) => (isDisplayed ? "15em" : "0")};
 
-  transition: all 0.3s ease;
+  transition: all 0.3s ease, height 1ms;
+  
   transform-origin: top right;
-  padding: 4vh 3vw;
+  padding: 4vh 3vw; 
   padding-bottom: 10vh;
 
   .nav-content-container {
@@ -69,7 +70,7 @@ const StyledNavigation = styled.div`
 
   @media (max-width: 600px) {
     position: fixed;
-    height: ${({ isDisplayed }) => (isDisplayed ? "96%" : "30%")};
+    height: ${({ isDisplayed }) => (isDisplayed ? "96vh" : "30vh")};
     width: ${({ isDisplayed }) => (isDisplayed ? "84%" : "30%")};
     overflow: hidden;
     top: 0;
