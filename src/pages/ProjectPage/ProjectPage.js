@@ -119,9 +119,11 @@ export default function ProjectPage() {
       <div className="project-description">{description}</div>
 
       <div className="project-actions">
-        <a className="view-project-link" href={demoLink}>
-          <i className="fa fa-eye"></i>
-        </a>
+        { demoLink && 
+          <a className="view-project-link" href={demoLink}>
+            <i className="fa fa-eye"></i>
+          </a>
+        }
 
         {repo && (
           <a className="view-repo-link" href={repo}>
