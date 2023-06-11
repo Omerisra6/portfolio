@@ -10,6 +10,11 @@ const StyledSocialLinksContainer = styled.div`
     content: "\f09b";
   }
 
+  .fa-linkedin::before,
+  .fa-linkedin::after {
+    content: "\f08c";
+  }
+
   a {
     position: relative;
     width: 24px;
