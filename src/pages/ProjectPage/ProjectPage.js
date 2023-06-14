@@ -92,6 +92,10 @@ const StyledProjectPage = styled.div`
     transform: scale(1.05);
   }
 
+  .project-logo{
+    width: 9em;
+  }
+
   @media (max-width: 600px) {
     .project-description {
       width: 90%;
@@ -99,6 +103,10 @@ const StyledProjectPage = styled.div`
 
     .project-actions {
       width: 90%;
+    }
+
+    .project-logo{
+      width: 5em;
     }
   }
 `;
@@ -108,10 +116,13 @@ export default function ProjectPage() {
   const currentProject = projectsData.find(
     (project) => slugify(project.name) === projectSlug
   );
-  const { name, screenshots, description, repo, demoLink } = currentProject;
+  const { name, screenshots, description, repo, demoLink, logo } = currentProject;
 
   return (
     <StyledProjectPage>
+
+      <img className="project-logo" src={logo} alt="logo"/>
+
       <h1 className="project-name">{name}</h1>
 
       <ScreenshotsCarousel screenshots={screenshots} />
