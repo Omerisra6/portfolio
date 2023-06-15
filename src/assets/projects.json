@@ -4,8 +4,8 @@
     "demoLink": "https://cleanregi.com",
     "logo": "https://cdn-icons-png.flaticon.com/512/5681/5681697.png",
     "screenshots": [
-      "https://i.postimg.cc/TYQ7tsnx/Clean-Regi1.png",
       "https://i.postimg.cc/DZq5Lp7t/Clean-Regi2.png",
+      "https://i.postimg.cc/TYQ7tsnx/Clean-Regi1.png",
       "https://i.postimg.cc/y8bfHSfr/Clean-Regi3.png",
       "https://i.postimg.cc/B6WM8ffT/Clean-Regi4.png",
       "https://i.postimg.cc/5tQsNNT9/Clean-Regi5.png"
@@ -27,7 +27,7 @@
     "pinned": true
   },
   {
-    "name": "NodeJS Video Chat",
+    "name": "React & Express Video Chat",
     "demoLink": "https://omerisra6-video-chat.onrender.com",
     "repo": "https://github.com/Omerisra6/video-chat-nodejs",
     "logo": "https://cdn-icons-png.flaticon.com/512/4575/4575980.png",
@@ -40,7 +40,7 @@
   },
   {
     "name": "Laravel Video Gallery",
-    "demoLink": "https://omerisra6-video-gallery.onrender.com",
+    "demoLink": "https://omerisra6-laravel-gallery.onrender.com",
     "repo": "https://github.com/Omerisra6/laravel-gallery",
     "logo": "https://cdn-icons-png.flaticon.com/512/1160/1160924.png",
     "screenshots": [
@@ -64,8 +64,7 @@
     "pinned": true
   },
   {
-    "name": "React Internet Speed Test",
-    "demoLink": "https://omerisra6-speed-test.onrender.com",
+    "name": "React & Express Internet Speed Test",
     "repo": "https://github.com/Omerisra6/internet-speed-test-react",
     "logo": "https://cdn-icons-png.flaticon.com/512/10321/10321953.png",
     "screenshots": ["https://i.postimg.cc/9Mq91k5X/localhost-3000.png "],
