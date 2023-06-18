@@ -74,7 +74,7 @@ const StyledNavigation = styled.div`
     overflow: hidden;
     top: 0;
     right: 0;
-    padding: 2% 8%;
+    padding: 2vh 8%;
     font-size: 1.5em;
 
     .nav-content-container {
