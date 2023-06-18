@@ -33,7 +33,7 @@ export default function ProjectsPage() {
     <StyledProjectsPage>
       <h1 className="my-projects-text">My Projects</h1>
       <span className="projects-description">
-        Selected projects that will reflect my knowladge
+        Selected projects that showcase my knowledge
       </span>
 
       <div className="project-cards-container">
