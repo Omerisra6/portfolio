@@ -11,7 +11,7 @@ const StyledProjectsPage = styled.div`
   align-items: center;
   align-self: center;
   gap: 1.5em;
-  padding: 15vh 0 15vh 0;
+  padding: 5vh 0 5vh 0;
   color: var(--theme-light-text-color);
 
   .projects-description {

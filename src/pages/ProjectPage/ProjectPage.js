@@ -12,7 +12,7 @@ const StyledProjectPage = styled.div`
   align-self: center;
   align-items: center;
   gap: 1.5em;
-  padding: 15vh 0 15vh 0;
+  padding: 5vh 0 5vh 0;
 
   .project-name {
     text-align: center;
