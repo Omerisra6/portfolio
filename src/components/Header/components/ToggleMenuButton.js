@@ -9,7 +9,6 @@ const StyledToggleMenuButton = styled.button`
   gap: 0.5em;
   height: fit-content;
   cursor: pointer;
-  width: 3em;
   align-self: flex-end;
   position: relative;
   top: 3vh;
@@ -19,7 +18,7 @@ const StyledToggleMenuButton = styled.button`
     display: block;
     height: 2px;
     background: var(--theme-grad-background);
-    width: 70%;
+    width: 28px;
     align-self: flex-end;
     transform: ${({ isDisplayed }) =>
       isDisplayed ? "rotate( -45deg )" : "rotate( 0deg )"};
@@ -32,7 +31,7 @@ const StyledToggleMenuButton = styled.button`
     content: " ";
     display: block;
     height: 2px;
-    width: ${({ isDisplayed }) => (isDisplayed ? "70%" : "100%")};
+    width: ${({ isDisplayed }) => (isDisplayed ? "28px" : "40px")};
     background: var(--theme-grad-background);
     transform: ${({ isDisplayed }) =>
       isDisplayed ? "rotate( 45deg )" : "rotate( 0deg )"};
