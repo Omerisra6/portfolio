@@ -7,6 +7,7 @@ export const useScrollHandler = (
 ) => {
   const handleScroll = useCallback(
     (event) => {
+      event.preventDefault();
       const delta = event.deltaY;
       const sectionIds = Object.keys(sections);
       const currentIndex = sectionIds.indexOf(currentSection);
@@ -21,10 +22,10 @@ export const useScrollHandler = (
   );
 
   useEffect(() => {
-    window.addEventListener("wheel", handleScroll);
+    window.addEventListener("wheel", handleScroll, {passive: false});
 
     return () => {
-      window.removeEventListener("wheel", handleScroll);
+      window.removeEventListener("wheel", handleScroll, {passive: false});
     };
   }, [currentSection, handleScroll]);
 };
