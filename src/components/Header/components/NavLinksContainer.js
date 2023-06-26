@@ -23,7 +23,7 @@ export default function NavLinksContainer() {
         <div>My Projects</div>
       </a>
 
-      <a className="link" href="/files/resume.pdf" download="Omer_Israeli.pdf">
+      <a className="link" href="https://drive.google.com/file/d/1KTHzE_aEjRa1y1EC5zLQg_w2Idz3Qjj4/view?usp=sharing" target="_blank">
         <div>My Resume</div>
       </a>
     </StyledNavLinksContainer>
