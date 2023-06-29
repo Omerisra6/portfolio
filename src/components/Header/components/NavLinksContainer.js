@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import appData from '../../../assets/app.json'
 
 const StyledNavLinksContainer = styled.div`
   display: flex;
@@ -23,7 +24,7 @@ export default function NavLinksContainer() {
         <div>My Projects</div>
       </a>
 
-      <a className="link" href="https://drive.google.com/file/d/1KTHzE_aEjRa1y1EC5zLQg_w2Idz3Qjj4/view?usp=sharing" target="_blank" rel="noreferrer">
+      <a className="link" href={appData.links.resume} target="_blank" rel="noreferrer">
         <div>My Resume</div>
       </a>
     </StyledNavLinksContainer>

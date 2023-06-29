@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import ProjectCard from "./components/ProjectCard";
-import projectsData from "../../assets/projects.json";
+import appData from "../../assets/app.json";
 
 const StyledProjectsPage = styled.div`
   width: 100%;
@@ -37,7 +37,7 @@ export default function ProjectsPage() {
       </span>
 
       <div className="project-cards-container">
-        {projectsData.map((project) => {
+        {appData.projects.map((project) => {
           return <ProjectCard project={project} />;
         })}
       </div>

@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import projectsData from "../../assets/projects.json";
+import appData from "../../assets/app.json";
 import { useParams } from "react-router";
 import { slugify } from "../../utils/helpers";
 import ScreenshotsCarousel from "./components/ScreenshotsCarousel";
@@ -113,7 +113,7 @@ const StyledProjectPage = styled.div`
 export default function ProjectPage() {
   const { projectSlug } = useParams();
 
-  const currentProject = projectsData.find(
+  const currentProject = appData.projects.find(
     (project) => slugify(project.name) === projectSlug
   );
   const { name, screenshots, description, repo, demoLink, logo } = currentProject;

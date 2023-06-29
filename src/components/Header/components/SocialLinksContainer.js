@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import appData from "../../../assets/app.json"
 
 const StyledSocialLinksContainer = styled.div`
   display: flex;
@@ -68,13 +69,13 @@ const StyledSocialLinksContainer = styled.div`
 export default function SocialLinksContainer() {
   return (
     <StyledSocialLinksContainer>
-      <a className="social-link" href="https://github.com/Omerisra6">
+      <a className="social-link" href={appData.links.github}>
         <i className="fa-brands fa-github"></i>
       </a>
 
       <a
         className="social-link"
-        href="https://www.linkedin.com/in/omer-israeli6/"
+        href={appData.links.linkedin}
       >
         <i className="fa-brands fa-linkedin"></i>
       </a>

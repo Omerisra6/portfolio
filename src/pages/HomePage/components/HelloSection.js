@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import PinnedProject from "./PinnedProject";
-import projectsData from "../../../assets/projects.json";
+import appData from "../../../assets/app.json"
 
 const StyledHelloSection = styled.div`
   display: flex;
@@ -141,7 +141,7 @@ const StyledHelloSection = styled.div`
   }
 `;
 export default function HelloSection() {
-  const pinnedProjects = projectsData.filter((project) => project.pinned);
+  const pinnedProjects = appData.projects.filter((project) => project.pinned);
 
   return (
     <StyledHelloSection>
@@ -161,7 +161,7 @@ export default function HelloSection() {
         </div>
         <div className="introduction-section">
           <div>
-            My name is Omer Israeli, and I'm a Full-Stack Developer.
+            My name is {appData.fullName}, and I'm a Full-Stack Developer.
             <br />I have developed a many types of web applications, including a
             Shoes Customize App and a platform specifically designed for
             building registration pages.

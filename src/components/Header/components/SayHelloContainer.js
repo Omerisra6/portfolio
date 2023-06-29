@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import appData from '../../../assets/app.json'
 
 const StyledSayHelloContainer = styled.div`
   display: flex;
@@ -31,11 +32,11 @@ export default function SayHelloContainer() {
       <div className="say-hello-text">SAY HELLO</div>
 
       <div className="say-hello-links-container">
-        <a className="link email-link" href="mailto:omerisraeli6@gmail.com">
-          omerisraeli6@gmail.com
+        <a className="link email-link" href={`mailto:${appData.email}`}>
+          {appData.email}
         </a>
-        <a className="link" href="https://wa.me/972549063651?text=SAY HELLO">
-          0549063651
+        <a className="link" href={`https://wa.me/${appData.phone.global}?text=SAY HELLO`}>
+          {appData.phone.display}
         </a>
       </div>
     </StyledSayHelloContainer>
