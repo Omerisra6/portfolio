@@ -17,7 +17,7 @@ const StyledNavigation = styled.div`
   height: ${({ isDisplayed }) => (isDisplayed ? "20em" : "0")};
   width: ${({ isDisplayed }) => (isDisplayed ? "15em" : "0")};
 
-  transition: all 0.3s ease, height 1ms;
+  transition: all 0.3s ease;
   
   transform-origin: top right;
   padding: 4vh 3vw; 
@@ -26,7 +26,9 @@ const StyledNavigation = styled.div`
   .nav-content-container {
     display: flex;
     width: ${({ isDisplayed }) => (isDisplayed ? "auto" : "0")};
+    height: ${({ isDisplayed }) => (isDisplayed ? "auto" : "0")};
     opacity: ${({ isDisplayed }) => (isDisplayed ? "1" : "0")};
+    visibility: ${({ isDisplayed }) => (isDisplayed ? "visible" : "hidden")};
     flex-direction: column;
     gap: 2em;
     position: relative;
