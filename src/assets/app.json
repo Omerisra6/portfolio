@@ -2,13 +2,47 @@
   "fullName": "Omer Israeli",
   "email": "omerisraeli6@gmail.com",
   "phone": { "global": "972549063651", "display": "0549063651" },
-  "links": { 
+  "links": {
     "resume": "https://drive.google.com/file/d/1KTHzE_aEjRa1y1EC5zLQg_w2Idz3Qjj4/view?usp=sharing",
     "github": "https://github.com/Omerisra6",
     "linkedin": "https://www.linkedin.com/in/omer-israeli6/"
   },
-  "projects": 
+  "projects":
   [
+    {
+      "name": "My State Management",
+      "demoLink": "https://omerisra6-state-management.netlify.app",
+      "logo": "https://cdn-icons-png.flaticon.com/512/345/345636.png",
+      "screenshots": [
+        "https://i.ibb.co/ySNNbWz/Screenshot-2023-12-20-at-10-31-57.png"
+      ],
+      "description": "A state management built with React and Typescript",
+      "pinned": true
+    },
+    {
+      "name": "Zignalz - Signal Pattern",
+      "demoLink": "https://www.npmjs.com/package/zignalz",
+      "logo": "https://cdn-icons-png.flaticon.com/512/1011/1011360.png",
+      "screenshots": [],
+      "description": "zignalz is a basic fully-typed implementation of the signal pattern in TypeScript.",
+      "pinned": true
+    },
+    {
+      "name": "Rezpond - React Mock",
+      "demoLink": "https://www.npmjs.com/package/zignalz",
+      "logo": "https://cdn-icons-png.flaticon.com/512/10596/10596634.png",
+      "screenshots": [],
+      "description": "rezpond is a simple, lightweight, and easy-to-use mock implementation of react.",
+      "pinned": true
+    },
+    {
+      "name": "Proxzy - State Management",
+      "demoLink": "https://www.npmjs.com/package/proxzy",
+      "logo": "https://cdn-icons-png.flaticon.com/512/2704/2704265.png",
+      "screenshots": [],
+      "description": "Proxzy is a fully typed simple state management library that uses the Proxy API to manage the state of your application.",
+      "pinned": true
+    },
     {
       "name": "Laravel Landing Pages Creator",
       "demoLink": "https://cleanregi.com",
@@ -59,7 +93,7 @@
         "https://i.postimg.cc/k4f7GzdQ/Screen-Shot-2023-05-23-at-19-12-06.png"
       ],
       "description": "Video Gallery App is a Laravel-based application that provides a user-friendly interface for managing and organizing videos. With a range of key features, this app offers a seamless experience for video upload, storage, and playback.\n\nOne of the notable features is its Docker compatibility, allowing for easy deployment and containerization of the app. Users can upload large video files without limitations, thanks to the app's capability to handle large video uploads.\n\nVideo Gallery App automatically converts video files into reduced versions optimized for streaming, ensuring efficient delivery and playback. It also offers Google Drive sync, enabling users to synchronize files from Google Drive with the app's local storage.\n\nTo enhance video discoverability, the app includes a search functionality that enables users to find specific videos based on titles, descriptions, or other metadata. Additionally, the application extracts and displays important video properties such as aspect ratio, resolution, and duration, providing users with detailed information about each video.\n\nWith robust error handling and a responsive design, Video Gallery App guarantees a smooth and uninterrupted user experience across various devices and screen sizes. Its user-friendly interface makes it easy to navigate through the video gallery and access desired features.\n\nThis app utilizes several open-source packages, including Laravel, Docker, and FFmpeg.",
-      "pinned": true
+      "pinned": false
     },
     {
       "name": "TypeScript Shoe Customize",
@@ -71,7 +105,7 @@
         "https://i.postimg.cc/tCz9Wgx2/Screen-Shot-2023-06-04-at-18-48-30.png"
       ],
       "description": "Shoe Custom App is a powerful application built with Typescript for customizing shoes. With its user-friendly interface and advanced features, users can personalize their shoes with ease.\n\nThe app offers a responsive design, optimized for both desktop and mobile devices, ensuring a smooth experience for all users. It allows users to search for any location in the world and view its current weather conditions.\n\nOne of the notable features of Shoe Custom App is its local storage capability. Users can save their custom shoe designs and retrieve them later.\n\nThe app provides extensive customization options. Users can customize their shoes using scalable vector graphics (SVG), including the ability to create their own colors. They can also add their customized shoes to their cart or save them to a product list for future reference.\n\nShoe Custom App offers a live preview feature, allowing users to instantly see the changes they make to their shoe design as they create it. The interface is designed to be user-friendly, ensuring a seamless and intuitive experience.\n\nTo use the app, simply clone the repository, install the necessary dependencies, and compile the TypeScript files. Serve the app using a local development server such as LiveServer.\n\nShoe Custom App credits the use of Typescript, an open-source package for building scalable applications.\n\nOverall, Shoe Custom App provides an efficient and customizable solution for users to personalize their shoes. It combines functionality with a visually appealing design, making it an ideal choice for shoe enthusiasts.",
-      "pinned": true
+      "pinned": false
     },
     {
       "name": "React & Express Internet Speed Test",
@@ -90,7 +124,7 @@
         "https://i.postimg.cc/jqvr0Fbt/Screen-Shot-2023-05-24-at-20-36-01.png"
       ],
       "description": "Crypto Currency Tracker App is a single-page application built with React for tracking the real-time data and price fluctuations of Bitcoin and Ethereum. It provides users with up-to-date information on the current currency values of these cryptocurrencies.\n\nThe app fetches the currency data using a socket client from an API, ensuring real-time updates. The fetched data is presented on an interactive chart, allowing users to visually track the price changes over time.\n\nWith a responsive design, Crypto Currency Tracker App offers an optimal viewing experience across various devices and screen sizes. It adapts seamlessly to desktops, tablets, and mobile devices.\n\nUsers can compare the current prices of Bitcoin and Ethereum side by side on the chart, enabling them to analyze the performance of both cryptocurrencies simultaneously.\n\nThe user-friendly interface enhances the overall experience, making it easy for users to interact with the app.\n\nThis application utilizes React, a popular JavaScript library for building user interfaces, and Node.js for the backend functionality ",
-      "pinned": true
+      "pinned": false
     },
     {
       "name": "React Weather",

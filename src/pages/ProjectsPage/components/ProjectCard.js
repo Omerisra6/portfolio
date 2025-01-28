@@ -57,7 +57,7 @@ const StyledProjectsCard = styled.a`
   }
 `;
 export default function ProjectCard({ project }) {
-  const { name, demoLink, screenshots } = project;
+  const { name, demoLink, screenshots, logo } = project;
 
   const demoLinkView = demoLink ? demoLink.replace("https://", "").replace(/\..*/, "") : '';
   const slug = slugify(name);
@@ -65,14 +65,18 @@ export default function ProjectCard({ project }) {
   return (
     <StyledProjectsCard href={`/projects/${slug}`}>
       <div className="card-top">
-        <img className="project-logo" alt={`${name}-logo`} src={screenshots[ 0 ]} />
+        <img className="project-logo" alt={`${name}-logo`} src={screenshots[ 0 ] || logo } />
       </div>
 
       <div className="card-bottom">
         <div className="project-name">{name}</div>
-        <a className="project-link" href={demoLink}>
-          {demoLinkView}
-        </a>
+          {
+            demoLink ?
+                <a className="project-link" href={demoLink}>
+                  {demoLinkView}
+                </a>
+                : null
+          }
       </div>
     </StyledProjectsCard>
   );

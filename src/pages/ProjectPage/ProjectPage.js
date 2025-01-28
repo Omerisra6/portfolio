@@ -9,10 +9,11 @@ const StyledProjectPage = styled.div`
   display: flex;
   flex-direction: column;
   width: 90%;
+  padding: 5vh 10%;
   align-self: center;
   align-items: center;
   gap: 1.5em;
-  padding: 5vh 0 5vh 0;
+  background-color: var(--theme-background);
 
   .project-name {
     text-align: center;
@@ -130,7 +131,7 @@ export default function ProjectPage() {
       <div className="project-description">{description}</div>
 
       <div className="project-actions">
-        { demoLink && 
+        { demoLink &&
           <a className="view-project-link" href={demoLink}>
             <i className="fa fa-eye"></i>
           </a>

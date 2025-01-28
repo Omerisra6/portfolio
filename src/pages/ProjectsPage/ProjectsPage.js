@@ -5,7 +5,6 @@ import appData from "../../assets/app.json";
 
 const StyledProjectsPage = styled.div`
   width: 100%;
-  max-width: 1280px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -13,6 +12,7 @@ const StyledProjectsPage = styled.div`
   gap: 1.5em;
   padding: 5vh 0 5vh 0;
   color: var(--theme-light-text-color);
+  background-color: var(--theme-background);
 
   .projects-description {
     text-align: center;
@@ -20,6 +20,7 @@ const StyledProjectsPage = styled.div`
 
   .project-cards-container {
     width: 100%;
+    max-width: 1280px;
     display: flex;
     justify-content: center;
     align-items: stretch;
